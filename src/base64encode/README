@@ -10,5 +10,4 @@ Usage
 --------------------------------------------------------------------------------
 Encoding an image from the web to a text file:
 
-  curl http://blog.roomanna.com/img/2011-08-29/bust.jpg | \
-       ../../bin/base64encode > output.txt
+  curl http://blog.roomanna.com/img/2011-08-29/bust.jpg | base64encode > out.txt
