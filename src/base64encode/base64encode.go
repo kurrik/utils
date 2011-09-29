@@ -24,6 +24,6 @@ import (
 func main() {
 	writer := base64.NewEncoder(base64.StdEncoding, os.Stdout)
 	if _, err := io.Copy(writer, os.Stdin); err != nil {
-		fmt.Printf("Error: %v\n", err)
+		fmt.Fprintf(os.Stderr, "Error: %v\n", err)
 	}
 }

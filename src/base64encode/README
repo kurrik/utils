@@ -1,0 +1,14 @@
+About
+--------------------------------------------------------------------------------
+A utility which base64 encodes standard input.
+
+Building
+--------------------------------------------------------------------------------
+Run gomake in this directory.  Output is ../../bin/base64encode.
+
+Usage
+--------------------------------------------------------------------------------
+Encoding an image from the web to a text file:
+
+  curl http://blog.roomanna.com/img/2011-08-29/bust.jpg | \
+       ../../bin/base64encode > output.txt
